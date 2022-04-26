@@ -1,0 +1,6 @@
+service : {
+  balanceOf: (principal) -> (nat) query;
+  getCaller: () -> (principal);
+  payOut: () -> (text);
+  transfer: (principal, nat) -> (text);
+}
